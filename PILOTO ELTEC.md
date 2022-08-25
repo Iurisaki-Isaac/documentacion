@@ -39,10 +39,10 @@ Al culminar la instalción se habrá creado una carpeta llamada files donde se a
 
 ![image](https://user-images.githubusercontent.com/109089231/186254669-39286c36-dd4c-42f5-a06a-d3e53a2f0534.png)
 
-7. Al finalizar la instalación cambia las políticas de ejecución de programas en linea de comandos con el mismo comando al que tenias anteriormente:
+7. Al finalizar la instalación cambia las políticas de ejecución de programas al que estaba anteriormente (el mensaje del paso 2) en linea de comandos con el mismo comando al que tenias anteriormente:
 
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy [COLOCA AQUI Restricted O Undefined DEPENDIENDO DE LO QUE TUVIERAS ANTES SIN LOS CORCHETES] -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy [COLOCA AQUI Restricted,Undefined,RemoteSigned o AllSigned DEPENDIENDO DE LO QUE TUVIERAS ANTES SIN LOS CORCHETES] -Scope CurrentUser
 ```
 
 8. Ejecuta SolucionDasolab
