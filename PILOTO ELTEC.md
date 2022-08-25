@@ -15,7 +15,7 @@ Si en la consola aparecieron los mensajes...
 ...puedes continuar al siguiente paso. En caso contrario ejecuta el siguiente comando:
 
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 ```
 ![image](https://user-images.githubusercontent.com/109089231/186257532-0dbc1c15-4f58-4711-86df-a7d819d7a8b7.png)
 
@@ -30,13 +30,13 @@ Al culminar la instalción se habrá creado una carpeta llamada files donde se a
 
 ![image](https://user-images.githubusercontent.com/109089231/186254669-39286c36-dd4c-42f5-a06a-d3e53a2f0534.png)
 
-Al finalizar la instalación puedes volver a cambiar las políticas de ejecución de programas en linea de comandos con el mismo comando:
+6. Al finalizar la instalación cambia las políticas de ejecución de programas en linea de comandos con el mismo comando al que tenias anteriormente:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy [COLOCA AQUI Restricted O Undefined DEPENDIENDO DE LO QUE TUVIERAS ANTES SIN LOS CORCHETES] -Scope CurrentUser
 ```
 
-6. Ejecuta SolucionDasolab
+7. Ejecuta SolucionDasolab
 
 Puedes cambiar las familias en el archivo familias.csv, recuerda siempre colocarlo en la misma carpeta que SolucionDasolab al mismo nivel (no moverlo de carpeta).
 
