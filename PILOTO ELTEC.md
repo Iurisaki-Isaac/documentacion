@@ -77,4 +77,4 @@ IMPORTANTE: Asegurate de cerrar todos los archivos que vayas a procesar.
 2. Selecciona primero el archivo correspondiente a la semana (El que genera Ariba)
 3. Selecciona el archivo que contiene la información de todas las semanas (archivo machote, el que haces tu)
 4. El programa procesará el archivo (alrededor de 8 segundos) y lanzará un mensaje de Archivo procesado
-5. Abre el archivo machote (que realizas tu) y notarás que ya está actualizado.
+5. Abre el archivo machote (que realizas tu) y notarás que ya está actualizado. También verás que se crea un archivo nuevo en la misma carpeta de la solución. Este contiene solo las nuevas hojas de cálcula creadas por la solución.
