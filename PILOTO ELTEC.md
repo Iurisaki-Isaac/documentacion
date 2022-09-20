@@ -29,19 +29,42 @@ Aparecerá un mensaje sobre el **Cambio de directiva de ejecución**. Dale que "
 
 ![image](https://user-images.githubusercontent.com/109089231/186737780-805a9c3a-0c99-4d87-832c-ef856c813fe1.png)
 
-6. Aparecerá un ventana donde puedes seleccionar la carpeta donde se encontrará el programa, selecciona la que desees.
+6. Es posible que pida la instalación de dos paqueterías adicionales: NuGet y PSGallery. Acepta la instalación si es que lo requiere como en el paso 5.
+7. Aparecerá un ventana donde puedes seleccionar la carpeta donde se encontrará el programa, selecciona la que desees.
 
-Al culminar la instalción se habrá creado una carpeta llamada files donde se almacenaran los programas, el archivo familias.csv y un ejecutable llamado SolucionDasolab en la carpeta que seleccionaste.
+![image](https://user-images.githubusercontent.com/109089231/191273843-21fb368c-a029-4d58-afc2-e9c905d26c18.png)
+
+Al culminar la instalación se habrá creado una carpeta llamada files donde se almacenaran los programas, el archivo familias.csv y un ejecutable llamado SolucionDasolab en la carpeta que seleccionaste.
 
 ![image](https://user-images.githubusercontent.com/109089231/186254669-39286c36-dd4c-42f5-a06a-d3e53a2f0534.png)
 
-7. Al finalizar la instalación cambia las políticas de ejecución de programas al que estaba anteriormente (el mensaje del paso 2) en linea de comandos con el mismo comando al que tenias anteriormente:
+8. Al finalizar la instalación cambia las políticas de ejecución de programas al que estaba anteriormente (el mensaje del paso 2) en linea de comandos con el mismo comando al que tenias anteriormente.
+
+Si en el paso 2 el mensaje fue Restricted coloque...
 
 ```powershell
-Set-ExecutionPolicy -ExecutionPolicy [COLOCA AQUI Restricted,Undefined,RemoteSigned o AllSigned DEPENDIENDO DE LO QUE TUVIERAS ANTES SIN LOS CORCHETES] -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
 ```
 
-8. Ejecuta SolucionDasolab
+Si el mensaje fue Undefined...
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
+```
+
+Si el mensaje fue RemoteSigned
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Si el mensaje fue AllSigned
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
+```
+
+9. Ejecuta SolucionDasolab
 
 Puedes cambiar las familias en el archivo **familias.csv**, recuerda siempre colocarlo en la misma carpeta que SolucionDasolab al mismo nivel (no moverlo de carpeta).
 
