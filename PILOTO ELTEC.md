@@ -34,11 +34,24 @@ Aparecerá un mensaje sobre el **Cambio de directiva de ejecución**. Dale que "
 
 ![image](https://user-images.githubusercontent.com/109089231/191273843-21fb368c-a029-4d58-afc2-e9c905d26c18.png)
 
-Al culminar la instalación se habrá creado una carpeta llamada files donde se almacenaran los programas, el archivo familias.csv y un ejecutable llamado SolucionDasolab en la carpeta que seleccionaste.
+8. El programa de instalación abrirá una ventana nueva depués de un momento que se verá como la de la imagen:
+
+![image](https://user-images.githubusercontent.com/109089231/192031379-e3d26338-3e74-4e35-9d06-8dd79283c939.png)
+
+En esta ventana de linea de comandos ejecuta el siguiente comando:
+
+```powershell
+./dependencias.ps1
+```
+Como el nombre del programa indica, este sirve para instalar las dependencias. Cuando haya finalizado verá un mensaje como el de la siguiente imagen, puede verificar que efectivamente ha acabado si al final cambio la linea de comandos con una terminación como la circulada en rojo.
+
+![image](https://user-images.githubusercontent.com/109089231/192033143-95460ca7-6741-4e75-a1dc-f7f933a0d807.png)
+
+Ha culminado la instalación, ua puede cerrar todas las ventanas de linea de comandos. En la carpeta que seleccionó, se habrá creado una carpeta llamada files donde se almacenaran los programas, el archivo familias.csv y un ejecutable llamado SolucionDasolab.
 
 ![image](https://user-images.githubusercontent.com/109089231/186254669-39286c36-dd4c-42f5-a06a-d3e53a2f0534.png)
 
-8. Al finalizar la instalación cambia las políticas de ejecución de programas al que estaba anteriormente (el mensaje del paso 2) en linea de comandos con el mismo comando al que tenias anteriormente.
+9. Al finalizar la instalación cambia las políticas de ejecución de programas al que estaba anteriormente (el mensaje del paso 2) en linea de comandos con el mismo comando al que tenias anteriormente.
 
 Si en el paso 2 el mensaje fue Restricted coloque...
 
@@ -64,7 +77,7 @@ Si el mensaje fue AllSigned
 Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser
 ```
 
-9. Ejecuta SolucionDasolab
+10. Ejecuta SolucionDasolab
 
 Puedes cambiar las familias en el archivo **familias.csv**, recuerda siempre colocarlo en la misma carpeta que SolucionDasolab al mismo nivel (no moverlo de carpeta).
 
