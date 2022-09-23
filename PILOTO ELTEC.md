@@ -47,7 +47,7 @@ Como el nombre del programa indica, este sirve para instalar las dependencias. C
 
 ![image](https://user-images.githubusercontent.com/109089231/192033143-95460ca7-6741-4e75-a1dc-f7f933a0d807.png)
 
-Ha culminado la instalación, ua puede cerrar todas las ventanas de linea de comandos. En la carpeta que seleccionó, se habrá creado una carpeta llamada files donde se almacenaran los programas, el archivo familias.csv y un ejecutable llamado SolucionDasolab.
+Ha culminado la instalación, ya puede cerrar todas las ventanas de linea de comandos. En la carpeta que seleccionó, se habrá creado una carpeta llamada files donde se almacenaran los programas, el archivo familias.csv y un ejecutable llamado SolucionDasolab.
 
 ![image](https://user-images.githubusercontent.com/109089231/186254669-39286c36-dd4c-42f5-a06a-d3e53a2f0534.png)
 
